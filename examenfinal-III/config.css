@@ -1,0 +1,29 @@
+
+body {
+  font-family: helvetica;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: white (245, 245, 245, 0.486);
+}
+.gridno1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: repeat(6, 140px);  
+  gap: 18px;
+  width: 75%;
+  max-width: 2000px;
+}
+
+.gridno2 {
+  background: rgba(255, 255, 255, 0.727);
+  border: 3px solid rgba(192, 192, 192, 0.775);
+  box-shadow:0 2px 5px rgba(0, 0, 0, 0.277);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
